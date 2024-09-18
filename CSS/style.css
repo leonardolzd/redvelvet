@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {margin: 0; padding: 0;}
+body {background-image: url("../IMG/fondo.jpg");background-repeat: no-repeat; background-size: cover; background-attachment: fixed; text-align: center; color: white; font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";}
+
+.wrapper {background-color:rgba(248,90,110,0.57); width: 1000px; margin-left: auto; margin-right: auto;}
+
+footer{font-size: 10px; background-color: crimson; height: 50px; line-height: 50px}
+
+.menu{background-color: lightcoral; height: 220px; }
+
+ul{list-style-type: none; }
+
+li{width: 249px; float: left; border-left: 1px solid; color: white; line-height: 30px; }
+
+#borde{border-left: none;}
+
+h1{font-size: 65px; line-height: 170px;}
+
+.rv{color: lightcoral; background-color: white; width: 800px; margin-left: auto; margin-right: auto; padding: 50px; margin: 50px; }
+
+.rv p {text-align: justify;}
+
+h2{color: crimson; border-top: 1px solid crimson; border-bottom: 1px solid crimson; width: 250px; margin-left: auto; margin-right: auto; line-height: 50px;}
+
+.polaroid{width: 317px; height:380px; background-color:white; color:black; box-shadow: 10px 10px 20px black; float: left; margin: 8px; }
+
+/*valores de box-shadow: x, y, difuminado y color*/
+
+.clear {clear: left;}
+
+/*la propiedad clear permite que aparezca el wrapper despues de poner la proipiedad float: left*/
+
+a{text-decoration: none; color: white;}
+
+a:hover {color:crimson; font-size: 15px;}
